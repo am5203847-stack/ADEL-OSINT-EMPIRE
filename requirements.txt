@@ -1,0 +1,7 @@
+hererequests
+beautifulsoup4
+python-whois
+phonenumbers
+shodan
+colorama
+pystyle
