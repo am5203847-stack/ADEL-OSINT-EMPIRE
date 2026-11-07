@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>ADEL V9.3 - SBG Rakaez</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;color:#fff;font-family:system-ui;padding:12px;padding-bottom:90px}
+.header{background:linear-gradient(180deg,#1a1a1a,#000);border:2px solid #D4FF00;border-radius:18px;text-align:center;padding:12px;margin-bottom:12px}
+.header h1{color:#D4FF00;font-size:22px;text-shadow:0 0 8px #D4FF00}
+.header .loc{color:#39FF14;margin:8px;font-weight:bold}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+.card{background:#111;border:2px solid #FFD700;border-radius:18px;padding:20px 10px;text-align:center;font-weight:900;color:#FFD700}
+.card b{color:#39FF14;font-size:32px;display:block;margin-top:6px}
+.card.active{background:#D4FF00;color:#000;border-color:#D4FF00;box-shadow:0 0 20px #D4FF00}
+.card.active b{color:#000}
+.list{border:1.5px solid #39FF14;border-radius:18px;padding:12px;background:#0A0A0A}
+.item{display:flex;justify-content:space-between;align-items:center;background:#161616;border-radius:14px;padding:14px;margin:10px 0;border-left:4px solid #39FF14}
+.check{width:36px;height:36px;background:#1E90FF;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>ADEL V9.3 MOBILE FIXED</h1>
+<div class="loc">📍 SBG | Rakaez A-4 - 100% READY</div>
+<div style="color:#FFD700;margin-top:8px;font-weight:900">ELEC 20/20 - TOTAL 121/121 - PDF OK</div>
+</div>
+
+<div class="grid">
+<div class="card">Scaffold<b>30</b>📷✓</div>
+<div class="card">Crane<b>25</b>📷✓</div>
+<div class="card">Forklift<b>29</b>📷✓</div>
+<div class="card">PPE<b>16</b>📷✓</div>
+<div class="card">PTW<b>21</b>📷✓</div>
+<div class="card active">Electrical<b>20</b>📷✓</div>
+</div>
+
+<div class="list">
+<h2 style="color:#39FF14;margin-bottom:10px">🛡️ Electrical - 20 Items Checked</h2>
+<div class="item"><span>📷 Panel Labeling Verified</span><span class="check">✓</span></div>
+<div class="item"><span>📷 Earthing Continuity Test</span><span class="check">✓</span></div>
+<div class="item"><span>📷 Cable Insulation Check</span><span class="check">✓</span></div>
+<div class="item"><span>📷 Circuit Breaker Rating</span><span class="check">✓</span></div>
+<div class="item"><span>📷 Emergency Stop Functional</span><span class="check">✓</span></div>
+<div class="item"><span>📷 No Exposed Wires - Safe</span><span class="check">✓</span></div>
+<div class="item"><span>📷 DB Dressing OK</span><span class="check">✓</span></div>
+</div>
+
+<div style="position:fixed;bottom:0;left:0;right:0;background:#111;display:flex;justify-content:space-around;padding:14px;border-top:2px solid #D4FF00">
+<span style="font-size:28px">🏠</span><span style="font-size:28px">📄</span><span style="font-size:28px">⚙️</span>
+</div>
+</body>
+</html>
